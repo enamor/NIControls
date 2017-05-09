@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "UIActionSheet+Block.h"
+#import "NSObject+AlertBlock.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) NSArray *titles;
@@ -70,6 +72,13 @@ static NSString *const identifier = @"controlsList";
     if (myObj) {
         [self.navigationController pushViewController:myObj animated:YES];
     }
+    if ([vcStr isEqualToString:@"ActionSheet"]) {
+        
+        
+        [self actionSheetWithBlock:^(NSInteger buttonIndex) {
+            NSLog(@"%d",buttonIndex);
+        } title:nil cancelButtonTitle:@"取消" otherButtonTitles:@"拍照",@"相册",@"哈哈哈哈", nil];
+    }
 }
 #pragma mark ------ UIScrollViewDelegate
 
@@ -102,9 +111,13 @@ static NSString *const identifier = @"controlsList";
 
 - (void)p_initDatas {
     _titles = @[@"图片文字上下Button",
-                @"倒计时"];
+                @"倒计时",
+                @"ActionSheet"];
     _controllers = @[@"NIButtonViewController",
-                     @"NICountDownViewController"];
+                     @"NICountDownViewController",
+                     @"ActionSheet"];
+    
+    
 }
 
 - (void)p_initObserver {
