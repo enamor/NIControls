@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B87DACB01EC15F0400949A3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B87DACAF1EC15F0400949A3F /* main.m */; };
+		B87DACB31EC15F0400949A3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B87DACB21EC15F0400949A3F /* AppDelegate.m */; };
+		B87DACB61EC15F0400949A3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87DACB51EC15F0400949A3F /* ViewController.m */; };
+		B87DACB91EC15F0400949A3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87DACB71EC15F0400949A3F /* Main.storyboard */; };
+		B87DACBB1EC15F0400949A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B87DACBA1EC15F0400949A3F /* Assets.xcassets */; };
+		B87DACBE1EC15F0400949A3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87DACBC1EC15F0400949A3F /* LaunchScreen.storyboard */; };
+		B87DACC81EC15F9D00949A3F /* NIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B87DACC71EC15F9D00949A3F /* NIButton.m */; };
+		B87DACCB1EC16B7600949A3F /* NIButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87DACCA1EC16B7600949A3F /* NIButtonViewController.m */; };
+		B87DACCE1EC16ECB00949A3F /* ic_woman_xuan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B87DACCD1EC16ECB00949A3F /* ic_woman_xuan@2x.png */; };
+		B87DACD11EC1713B00949A3F /* NICountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87DACD01EC1713B00949A3F /* NICountDownViewController.m */; };
+		B87DACD41EC1723100949A3F /* NICountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = B87DACD31EC1723100949A3F /* NICountDown.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B87DACAB1EC15F0400949A3F /* NIControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B87DACAF1EC15F0400949A3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B87DACB11EC15F0400949A3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B87DACB21EC15F0400949A3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B87DACB41EC15F0400949A3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B87DACB51EC15F0400949A3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B87DACB81EC15F0400949A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B87DACBA1EC15F0400949A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B87DACBD1EC15F0400949A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B87DACBF1EC15F0400949A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B87DACC61EC15F9D00949A3F /* NIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIButton.h; sourceTree = "<group>"; };
+		B87DACC71EC15F9D00949A3F /* NIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIButton.m; sourceTree = "<group>"; };
+		B87DACC91EC16B7600949A3F /* NIButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIButtonViewController.h; sourceTree = "<group>"; };
+		B87DACCA1EC16B7600949A3F /* NIButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIButtonViewController.m; sourceTree = "<group>"; };
+		B87DACCD1EC16ECB00949A3F /* ic_woman_xuan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_woman_xuan@2x.png"; sourceTree = "<group>"; };
+		B87DACCF1EC1713B00949A3F /* NICountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NICountDownViewController.h; sourceTree = "<group>"; };
+		B87DACD01EC1713B00949A3F /* NICountDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NICountDownViewController.m; sourceTree = "<group>"; };
+		B87DACD21EC1723100949A3F /* NICountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NICountDown.h; sourceTree = "<group>"; };
+		B87DACD31EC1723100949A3F /* NICountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NICountDown.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B87DACA81EC15F0400949A3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B87DACA21EC15F0400949A3F = {
+			isa = PBXGroup;
+			children = (
+				B87DACAD1EC15F0400949A3F /* NIControls */,
+				B87DACAC1EC15F0400949A3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B87DACAC1EC15F0400949A3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B87DACAB1EC15F0400949A3F /* NIControls.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B87DACAD1EC15F0400949A3F /* NIControls */ = {
+			isa = PBXGroup;
+			children = (
+				B87DACCC1EC16C1C00949A3F /* Resource */,
+				B87DACC51EC15F1F00949A3F /* Controls */,
+				B87DACB11EC15F0400949A3F /* AppDelegate.h */,
+				B87DACB21EC15F0400949A3F /* AppDelegate.m */,
+				B87DACB41EC15F0400949A3F /* ViewController.h */,
+				B87DACB51EC15F0400949A3F /* ViewController.m */,
+				B87DACB71EC15F0400949A3F /* Main.storyboard */,
+				B87DACBA1EC15F0400949A3F /* Assets.xcassets */,
+				B87DACBC1EC15F0400949A3F /* LaunchScreen.storyboard */,
+				B87DACBF1EC15F0400949A3F /* Info.plist */,
+				B87DACAE1EC15F0400949A3F /* Supporting Files */,
+				B87DACC91EC16B7600949A3F /* NIButtonViewController.h */,
+				B87DACCA1EC16B7600949A3F /* NIButtonViewController.m */,
+				B87DACCF1EC1713B00949A3F /* NICountDownViewController.h */,
+				B87DACD01EC1713B00949A3F /* NICountDownViewController.m */,
+			);
+			path = NIControls;
+			sourceTree = "<group>";
+		};
+		B87DACAE1EC15F0400949A3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B87DACAF1EC15F0400949A3F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B87DACC51EC15F1F00949A3F /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				B87DACD21EC1723100949A3F /* NICountDown.h */,
+				B87DACD31EC1723100949A3F /* NICountDown.m */,
+				B87DACC61EC15F9D00949A3F /* NIButton.h */,
+				B87DACC71EC15F9D00949A3F /* NIButton.m */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		B87DACCC1EC16C1C00949A3F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B87DACCD1EC16ECB00949A3F /* ic_woman_xuan@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B87DACAA1EC15F0400949A3F /* NIControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B87DACC21EC15F0400949A3F /* Build configuration list for PBXNativeTarget "NIControls" */;
+			buildPhases = (
+				B87DACA71EC15F0400949A3F /* Sources */,
+				B87DACA81EC15F0400949A3F /* Frameworks */,
+				B87DACA91EC15F0400949A3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NIControls;
+			productName = NIControls;
+			productReference = B87DACAB1EC15F0400949A3F /* NIControls.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B87DACA31EC15F0400949A3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zhouen;
+				TargetAttributes = {
+					B87DACAA1EC15F0400949A3F = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B87DACA61EC15F0400949A3F /* Build configuration list for PBXProject "NIControls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B87DACA21EC15F0400949A3F;
+			productRefGroup = B87DACAC1EC15F0400949A3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B87DACAA1EC15F0400949A3F /* NIControls */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B87DACA91EC15F0400949A3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87DACBE1EC15F0400949A3F /* LaunchScreen.storyboard in Resources */,
+				B87DACCE1EC16ECB00949A3F /* ic_woman_xuan@2x.png in Resources */,
+				B87DACBB1EC15F0400949A3F /* Assets.xcassets in Resources */,
+				B87DACB91EC15F0400949A3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B87DACA71EC15F0400949A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87DACC81EC15F9D00949A3F /* NIButton.m in Sources */,
+				B87DACB61EC15F0400949A3F /* ViewController.m in Sources */,
+				B87DACB31EC15F0400949A3F /* AppDelegate.m in Sources */,
+				B87DACD11EC1713B00949A3F /* NICountDownViewController.m in Sources */,
+				B87DACCB1EC16B7600949A3F /* NIButtonViewController.m in Sources */,
+				B87DACD41EC1723100949A3F /* NICountDown.m in Sources */,
+				B87DACB01EC15F0400949A3F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B87DACB71EC15F0400949A3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B87DACB81EC15F0400949A3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B87DACBC1EC15F0400949A3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B87DACBD1EC15F0400949A3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B87DACC01EC15F0400949A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B87DACC11EC15F0400949A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B87DACC31EC15F0400949A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NIControls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.zn.controls.NIControls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B87DACC41EC15F0400949A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NIControls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.zn.controls.NIControls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B87DACA61EC15F0400949A3F /* Build configuration list for PBXProject "NIControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B87DACC01EC15F0400949A3F /* Debug */,
+				B87DACC11EC15F0400949A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B87DACC21EC15F0400949A3F /* Build configuration list for PBXNativeTarget "NIControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B87DACC31EC15F0400949A3F /* Debug */,
+				B87DACC41EC15F0400949A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B87DACA31EC15F0400949A3F /* Project object */;
+}
