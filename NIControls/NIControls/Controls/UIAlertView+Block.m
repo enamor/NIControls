@@ -1,6 +1,6 @@
 //
 //  UIAlertView+Block.m
-//  iOS-Categories
+//  NIControls
 //
 //  Created by zn on 15/5/9.
 //  Copyright (c) 2015年 zhouen All rights reserved.

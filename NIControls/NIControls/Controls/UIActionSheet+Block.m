@@ -30,8 +30,10 @@ static NSString *UIAlertViewKey = @"UIAlertViewKey";
         }
         va_end(args);
     }
-    [actionSheet addButtonWithTitle:cancelButtonTitle];
-    actionSheet.cancelButtonIndex = count + 1;
+    if (cancelButtonTitle) {
+        [actionSheet addButtonWithTitle:cancelButtonTitle];
+        actionSheet.cancelButtonIndex = count + 1;
+    }
     actionSheet.delegate = actionSheet;
     [actionSheet showInView:view];
     actionSheet.callBackBlock = callBackBlock;

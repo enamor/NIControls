@@ -74,10 +74,15 @@ static NSString *const identifier = @"controlsList";
     }
     if ([vcStr isEqualToString:@"ActionSheet"]) {
         
+        //AlertView
+        [self alertViewWithBlock:^(NSInteger buttonIndex) {
+            NSLog(@"%d",buttonIndex);
+        } title:@"温馨提示" message:@"确定要流量观看吗" cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
         
+        //ActionSheet
         [self actionSheetWithBlock:^(NSInteger buttonIndex) {
             NSLog(@"%d",buttonIndex);
-        } title:nil cancelButtonTitle:@"取消" otherButtonTitles:@"拍照",@"相册",@"哈哈哈哈", nil];
+        } title:nil cancelButtonTitle:@"取消" otherButtonTitles:@"拍照",@"手机相册", nil];
     }
 }
 #pragma mark ------ UIScrollViewDelegate

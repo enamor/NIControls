@@ -33,6 +33,8 @@
 }
 
 - (void)getCodeAction {
+    _codeBtn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 120, 30)];
+    
     NICountDown *countDown = [[NICountDown alloc] init];
     __weak typeof(self) weakSelf = self;
     [countDown countDown:60 completeBlock:^(int secs) {
@@ -52,6 +54,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dealloc {
+    NSLog(@"%s",__func__);
+}
 /*
 #pragma mark - Navigation
 

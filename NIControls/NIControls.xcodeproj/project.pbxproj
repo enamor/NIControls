@@ -113,12 +113,12 @@
 			children = (
 				B87DACD91EC1AD1900949A3F /* UIAlertView+Block.h */,
 				B87DACDA1EC1AD1900949A3F /* UIAlertView+Block.m */,
+				B87DACDC1EC1ADD200949A3F /* UIActionSheet+Block.h */,
+				B87DACDD1EC1ADD200949A3F /* UIActionSheet+Block.m */,
 				B87DACD21EC1723100949A3F /* NICountDown.h */,
 				B87DACD31EC1723100949A3F /* NICountDown.m */,
 				B87DACC61EC15F9D00949A3F /* NIButton.h */,
 				B87DACC71EC15F9D00949A3F /* NIButton.m */,
-				B87DACDC1EC1ADD200949A3F /* UIActionSheet+Block.h */,
-				B87DACDD1EC1ADD200949A3F /* UIActionSheet+Block.m */,
 				B87DACEB1EC1CF6D00949A3F /* NSObject+AlertBlock.h */,
 				B87DACEC1EC1CF6D00949A3F /* NSObject+AlertBlock.m */,
 			);
