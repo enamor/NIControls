@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "UIActionSheet+Block.h"
 #import "NSObject+AlertBlock.h"
+#import "UIView+keyboard.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) NSArray *titles;
@@ -37,6 +38,7 @@ static NSString *const identifier = @"controlsList";
     [self p_initUI];
     [self p_initDatas];
     [self p_initObserver];
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -117,10 +119,12 @@ static NSString *const identifier = @"controlsList";
 - (void)p_initDatas {
     _titles = @[@"图片文字上下Button",
                 @"倒计时",
-                @"ActionSheet"];
+                @"ActionSheet",
+                @"键盘分类测试"];
     _controllers = @[@"NIButtonViewController",
                      @"NICountDownViewController",
-                     @"ActionSheet"];
+                     @"ActionSheet",
+                     @"KeyBoardTextViewController"];
     
     
 }

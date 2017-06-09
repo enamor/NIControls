@@ -21,6 +21,8 @@
 		B87DACDB1EC1AD1900949A3F /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = B87DACDA1EC1AD1900949A3F /* UIAlertView+Block.m */; };
 		B87DACDE1EC1ADD200949A3F /* UIActionSheet+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = B87DACDD1EC1ADD200949A3F /* UIActionSheet+Block.m */; };
 		B87DACED1EC1CF6D00949A3F /* NSObject+AlertBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B87DACEC1EC1CF6D00949A3F /* NSObject+AlertBlock.m */; };
+		B8DE521F1EEA8CCD000A49C2 /* UIView+keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DE521E1EEA8CCD000A49C2 /* UIView+keyboard.m */; };
+		B8DE52221EEA8D82000A49C2 /* KeyBoardTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DE52211EEA8D82000A49C2 /* KeyBoardTextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,10 @@
 		B87DACDD1EC1ADD200949A3F /* UIActionSheet+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Block.m"; sourceTree = "<group>"; };
 		B87DACEB1EC1CF6D00949A3F /* NSObject+AlertBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AlertBlock.h"; sourceTree = "<group>"; };
 		B87DACEC1EC1CF6D00949A3F /* NSObject+AlertBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AlertBlock.m"; sourceTree = "<group>"; };
+		B8DE521D1EEA8CCD000A49C2 /* UIView+keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+keyboard.h"; sourceTree = "<group>"; };
+		B8DE521E1EEA8CCD000A49C2 /* UIView+keyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+keyboard.m"; sourceTree = "<group>"; };
+		B8DE52201EEA8D82000A49C2 /* KeyBoardTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyBoardTextViewController.h; path = ../KeyBoardTextViewController.h; sourceTree = "<group>"; };
+		B8DE52211EEA8D82000A49C2 /* KeyBoardTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyBoardTextViewController.m; path = ../KeyBoardTextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		B87DACAD1EC15F0400949A3F /* NIControls */ = {
 			isa = PBXGroup;
 			children = (
+				B8DE521C1EEA8CCD000A49C2 /* Categorys */,
 				B87DACCC1EC16C1C00949A3F /* Resource */,
 				B87DACC51EC15F1F00949A3F /* Controls */,
 				B87DACB11EC15F0400949A3F /* AppDelegate.h */,
@@ -96,6 +103,8 @@
 				B87DACCA1EC16B7600949A3F /* NIButtonViewController.m */,
 				B87DACCF1EC1713B00949A3F /* NICountDownViewController.h */,
 				B87DACD01EC1713B00949A3F /* NICountDownViewController.m */,
+				B8DE52201EEA8D82000A49C2 /* KeyBoardTextViewController.h */,
+				B8DE52211EEA8D82000A49C2 /* KeyBoardTextViewController.m */,
 			);
 			path = NIControls;
 			sourceTree = "<group>";
@@ -131,6 +140,15 @@
 				B87DACCD1EC16ECB00949A3F /* ic_woman_xuan@2x.png */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		B8DE521C1EEA8CCD000A49C2 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				B8DE521D1EEA8CCD000A49C2 /* UIView+keyboard.h */,
+				B8DE521E1EEA8CCD000A49C2 /* UIView+keyboard.m */,
+			);
+			path = Categorys;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8DE52221EEA8D82000A49C2 /* KeyBoardTextViewController.m in Sources */,
 				B87DACED1EC1CF6D00949A3F /* NSObject+AlertBlock.m in Sources */,
 				B87DACC81EC15F9D00949A3F /* NIButton.m in Sources */,
 				B87DACDE1EC1ADD200949A3F /* UIActionSheet+Block.m in Sources */,
@@ -213,6 +232,7 @@
 				B87DACD11EC1713B00949A3F /* NICountDownViewController.m in Sources */,
 				B87DACCB1EC16B7600949A3F /* NIButtonViewController.m in Sources */,
 				B87DACDB1EC1AD1900949A3F /* UIAlertView+Block.m in Sources */,
+				B8DE521F1EEA8CCD000A49C2 /* UIView+keyboard.m in Sources */,
 				B87DACD41EC1723100949A3F /* NICountDown.m in Sources */,
 				B87DACB01EC15F0400949A3F /* main.m in Sources */,
 			);
